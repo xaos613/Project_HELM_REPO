@@ -13,39 +13,6 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.4.3
-    created: "2025-03-06T15:53:23.244154857Z"
-    dependencies:
-    - condition: memcached.enabled
-      name: memcached
-      repository: oci://registry-1.docker.io/bitnamicharts
-      version: 6.x.x
-    - condition: mariadb.enabled
-      name: mariadb
-      repository: oci://registry-1.docker.io/bitnamicharts
-      version: 16.x.x
-    - name: common
-      repository: oci://registry-1.docker.io/bitnamicharts
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: WordPress
-    digest: 8aaae77d97f3909a3fcffb40a9c7863310b6dab4cf9bb077141d67d21f219aec
-    name: wordpress
-    urls:
-    - https://xaos613.github.io/Project_HELM_REPO/wordpress-20.1.0.tgz
-    version: 20.1.0
-  - annotations:
-      category: CMS
-      images: |
-        - name: apache-exporter
-          image: docker.io/bitnami/apache-exporter:1.0.6-debian-12-r7
-        - name: os-shell
-          image: docker.io/bitnami/os-shell:12-debian-12-r16
-        - name: wordpress
-          image: docker.io/bitnami/wordpress:6.1.0-debian-12-r18
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 6.4.3
     created: "2025-03-06T15:53:23.253696114Z"
     dependencies:
     - condition: memcached.enabled

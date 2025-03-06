@@ -13,7 +13,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.4.3
-    created: "2025-03-06T14:18:43.74073833Z"
+    created: "2025-03-06T15:39:27.380055131Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -29,9 +29,9 @@ entries:
       - bitnami-common
       version: 2.x.x
     description: WordPress
-    digest: 51834cb1a39276fc0531f0749a4b2a2370ee876c0fb00f2c4572671112faec8c
+    digest: 2ee2a66a7e5c172d7060a63e222d001508b98b2e5871139d212a867889be8853
     name: wordpress
     urls:
     - https://xaos613.github.io/Project_HELM_REPO/wordpress-20.1.0.tgz
     version: 20.1.0
-generated: "2025-03-06T14:18:43.731465524Z"
+generated: "2025-03-06T15:39:27.370661427Z"
